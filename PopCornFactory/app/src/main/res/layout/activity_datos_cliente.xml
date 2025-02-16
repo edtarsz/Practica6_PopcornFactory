@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo"
+    tools:context=".Reporte">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Reporte"
+        android:layout_height="wrap_content"
+        android:textColor="@color/yellow"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginVertical="20dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed"
+    />
+
+    <EditText
+        android:id="@+id/nombreCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="text"
+        android:textSize="15dp"
+        android:textColor="@color/yellow"
+        android:text="Ingrese su nombre"
+    />
+
+    <TextView
+        android:textSize="15dp"
+        android:textColor="@color/yellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Asiento seleccionado: "
+        android:layout_marginStart="10dp"
+    />
+
+    <TextView
+        android:id="@+id/asiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/yellow"
+        android:text="Placeholder"
+        android:layout_marginBottom="20dp"
+    />
+
+    <Button
+        android:id="@+id/btnConfirmar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="Confirmar"
+    />
+
+
+</LinearLayout>

@@ -11,4 +11,5 @@ class Pelicula
     image: Int,
     header: Int,
     sinopsis: String,
+    var seats: ArrayList<Cliente>
 ) : Contenido(titulo, image, header, sinopsis)
